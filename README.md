@@ -9,6 +9,7 @@ https://tajam.github.com
 # Demo / Planning
 
 # Outside Code
-Main Font: https://fonts.google.com/specimen/Roboto
-Secundary Font: PLAYFAIR DISPLAY: https://www.fontsquirrel.com/fonts/playfair-display
-CSS Reset: Normalize https://necolas.github.io/normalize.css/
+Main Font: https://fonts.google.com/specimen/Roboto </br>
+Secundary Font: PLAYFAIR DISPLAY: https://www.fontsquirrel.com/fonts/playfair-display </br>
+CSS Reset: Normalize https://necolas.github.io/normalize.css/ </br>
+Icons: Font Awesome: https://fontawesome.com/ </br>
