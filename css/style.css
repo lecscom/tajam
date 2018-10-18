@@ -4,7 +4,7 @@
 }
 
 #home{
-  background: url("images/header_background.webp") #312852;
+  background: url("../images/header_background.webp") #312852;
   height: 670px;
   width: 100%;
   }
@@ -153,7 +153,7 @@
     }
 
   #about_video{
-    background: url("images/video_background.webp") #201b41;
+    background: url("../images/video_background.webp") #201b41;
     height: 550px;
   }
 
@@ -204,7 +204,7 @@
   }
 
 #teams{
-  background: url("images/team_background.webp") #302b50;
+  background: url("../images/team_background.webp") #302b50;
   /* height: 715px; */
   height: 640px;
   }
@@ -267,7 +267,7 @@
   }
 
 #people_say{
-  background: url("images/peoplesay_background.webp") #231e43;
+  background: url("../images/peoplesay_background.webp") #231e43;
   height: 500px;
 }
 
@@ -372,6 +372,6 @@
     }
 
 #footer{
-  background: url("images/footer_background.webp") #251f44;
+  background: url("../images/footer_background.webp") #251f44;
   height: 400px;
 }
