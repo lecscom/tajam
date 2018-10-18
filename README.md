@@ -2,7 +2,7 @@
 Tajam is bussines page
 
 # Live URL
-https://tajam.github.com
+https://lecscom.github.io/tajam/
 
 # Description
 
