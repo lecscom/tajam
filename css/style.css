@@ -1,0 +1,314 @@
+.wrapper{
+  width:960px;
+  margin:0 auto;
+}
+
+#home{
+  background: url("images/header_background.webp") #312852;
+  height: 670px;
+  width: 100%;
+  }
+
+  #logo_home{
+    width: 16%;
+    height: 75px;
+    /* background: white; */
+    float: left;
+  }
+
+    #logo_home .logo_tajam{
+      padding-top: 10px;
+    }
+
+  #nav_home{
+    width: 84%;
+    height: 75px;
+    /* background: gray; */
+    float: right;
+  }
+
+  .menu_nav_home ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    }
+
+  .menu_nav_home ul li{
+    float: right;
+
+  }
+
+  .menu_nav_home ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .menu_nav_home ul li a:hover{
+    color: #00e0d0;
+  }
+
+  #slide_home{
+    width: 100%;
+    height: 600px;
+    /* background: yellow; */
+  }
+
+    .slide_text_home{
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin: 0px;
+      text-align: center;
+      padding-top: 230px;
+      color: white;
+    }
+
+    hr{
+      width: 50px;
+      color: #00e0d0
+    }
+
+    .slide_text_home2{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      color: white;
+      text-align: center;
+      line-height: 12px;
+    }
+
+    .button1{
+      background: none;
+      color: #00e0d0;
+      border: 2px solid #00e0d0;
+      padding: 15px;
+      font-family: 'Hammersmith One', sans-serif;
+      font-size: 16px;
+      float: center;
+      margin-left: 43.5%;
+    }
+
+    .button1:hover{
+      color: white;
+    }
+#about{
+  background: white;
+  height: 950px;
+}
+  #about_text_area{
+    background: white;
+    height: 400px;
+  }
+
+  #logo_about{
+    width: 40%;
+    height: 400px;
+    /* background: green; */
+    float: left;
+  }
+
+    .logo_about{
+      padding: 80px 80px;
+    }
+
+  #text_about{
+    width: 60%;
+    height: 400px;
+    /* background: red; */
+    float: right;
+  }
+
+    .text_about1{
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      margin: 0px;
+      padding-top: 100px;
+      color: #413d4b;
+    }
+
+    .text_about2{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+      color: #413d4b;
+    }
+
+    .button2{
+      background: none;
+      color: #00e0d0;
+      border: 2px solid #00e0d0;
+      padding: 15px;
+      font-family: 'Hammersmith One', sans-serif;
+      font-size: 16px;
+
+
+    }
+
+    .button2:hover{
+      color: #413d4b;
+    }
+
+  #about_video{
+    background: url("images/video_background.webp") #201b41;
+    height: 550px;
+  }
+
+    #about_video i{
+      color: white;
+      font-size: 100px;
+    }
+
+    .tex_video{
+      color: white;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .play_buttom{
+      background: none;
+      border: none;
+      margin: 20% 42%;
+    }
+
+    .play_buttom:hover{
+      color: #00e0d0;
+    }
+
+
+#expertise{
+  background: white;
+  height: 750px;
+}
+
+  .text_expertise{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin: 0px;
+    text-align: center;
+    color: #413d4b;
+    margin-top: 75px;
+  }
+
+  .text_expertise2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #413d4b;
+  }
+
+#teams{
+  background: url("images/team_background.webp") #302b50;
+  height: 715px;
+  }
+
+.text_teams {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+
+
+}
+
+.text_teams2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  }
+
+  .button3{
+    background: none;
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    padding: 15px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    float: center;
+    margin-left: 42.5%;
+
+  }
+
+  .button3:hover{
+    color: white;
+  }
+
+#works{
+  background: white;
+  height: 740px;
+}
+
+  .text_works{
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin: 0px;
+    color: #413d4b;
+  }
+
+  .button4{
+    background: none;
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    padding: 15px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+  }
+
+  .button4:hover{
+    color: #413d4b;
+  }
+
+#people_say{
+  background: url("images/peoplesay_background.webp") #231e43;
+  height: 500px;
+}
+
+.text_people_say {
+  font-family: 'Playfair Display', serif;
+  font-size: 100px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  }
+
+.text_people_say2{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  width:780px;
+  margin:0 auto;
+  line-height: 30px;
+  }
+
+  .text_people_say3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    line-height: 5px;
+    }
+
+    .text_people_say4{
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      text-align: center;
+      color: white;
+      line-height: 5px;
+      }
+
+
+#contac{
+  background: white;
+  height: 650px;
+}
+
+#footer{
+  background: url("images/footer_background.webp") #251f44;
+  height: 400px;
+}
