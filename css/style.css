@@ -171,7 +171,9 @@
     .play_buttom{
       background: none;
       border: none;
-      margin: 20% 42%;
+      margin-top: 200px;
+      margin-left: 420px;
+      /* margin: 20% 42%; */
     }
 
     .play_buttom:hover{
@@ -181,7 +183,8 @@
 
 #expertise{
   background: white;
-  height: 750px;
+  /* height: 750px; */
+  height: 675px;
 }
 
   .text_expertise{
@@ -202,7 +205,8 @@
 
 #teams{
   background: url("images/team_background.webp") #302b50;
-  height: 715px;
+  /* height: 715px; */
+  height: 640px;
   }
 
 .text_teams {
@@ -211,8 +215,7 @@
   margin: 0px;
   text-align: center;
   color: white;
-
-
+  margin-top: 75px;
 }
 
 .text_teams2{
@@ -307,6 +310,66 @@
   background: white;
   height: 650px;
 }
+
+  #contac_form{
+    width: 58%;
+    height: 650px;
+    /* background: pink; */
+    float: left;
+  }
+
+    .text_contac_form{
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      margin: 0px;
+      padding-top: 70px;
+      color: #413d4b;
+    }
+
+    input[type=text] {
+      width: 460px;
+      color: #413d4b;
+      margin-bottom: 25px;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      padding: 10px 15px;
+    }
+
+    textarea {
+      width: 460px;
+      color: #413d4b;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      padding: 10px 15px;
+    }
+
+    input[type=submit] {
+      background: none;
+      color: #00e0d0;
+      border: 2px solid #00e0d0;
+      padding: 10px 20px;
+      font-family: 'Hammersmith One', sans-serif;
+      font-size: 16px;
+  }
+
+      input[type=submit]:hover{
+        color: #413d4b;
+      }
+
+  #contac_client{
+    width: 42%;
+    height: 650px;
+    /* background: red; */
+    float: right;
+  }
+
+    .text_contac_client{
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      margin: 0px;
+      padding-top: 70px;
+      color: #413d4b;
+    }
 
 #footer{
   background: url("images/footer_background.webp") #251f44;
