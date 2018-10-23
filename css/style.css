@@ -3,6 +3,11 @@
   margin:0 auto;
 }
 
+hr{
+  width: 50px;
+  color: #00e0d0
+}
+
 #home{
   background: url("../images/header_background.webp") #312852;
   background-repeat: no-repeat;
@@ -61,27 +66,58 @@
     /* background: yellow; */
   }
 
-    .slide_text_home{
-      font-family: 'Playfair Display', serif;
-      font-size: 32px;
-      margin: 0px;
+    /* INICIO DE SLIDWSHOW CON CSS */
+
+    #slideshow {
+      overflow: hidden;
+      height: 400px;
+      width: 960px;
+      margin: 0 auto;
+      /* background: BLUE; */
+      z-index: -1;
+      }
+
+    .textoslide{
+      font-family: Roboto, sans-serif;
+      padding: 5%;
       text-align: center;
-      padding-top: 230px;
-      color: white;
     }
 
-    hr{
-      width: 50px;
-      color: #00e0d0
+    .slide-wrapper {
+      width: 2912px;
+      -webkit-animation: slide 18s ease infinite;
     }
 
-    .slide_text_home2{
-      font-family: 'Roboto', sans-serif;
-      font-size: 14px;
-      color: white;
-      text-align: center;
-      line-height: 12px;
+    .slide {
+      float: left;
+      height: 400px;
+      width: 960px;
     }
+
+    #slideshow .slide-wrapper .slide img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 150px;
+
+
+    }
+
+
+    @-webkit-keyframes slide {
+      20% {margin-left: 0px;}
+      30% {margin-left: -960px;}
+      50% {margin-left: -960px;}
+      60% {margin-left: -1920px;}
+      70% {margin-left: -1920px;}
+      /* 80% {margin-left: -2880px;} */
+      /* 90% {margin-left: -2880px;} */
+    }
+
+    /* FIN DE SLIDESHOW CON CSS */
+
+
+
 
     .button1{
       background: none;
@@ -90,16 +126,16 @@
       padding: 15px;
       font-family: 'Hammersmith One', sans-serif;
       font-size: 16px;
-      float: center;
       margin-left: 43.5%;
+
     }
 
     .button1:hover{
       color: white;
       border: 2px solid white;
       cursor: pointer;
-
     }
+
 #about{
   background: white;
   height: 950px;
