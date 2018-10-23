@@ -1,7 +1,9 @@
 .wrapper{
   width:960px;
   margin:0 auto;
-}
+  
+
+  }
 
 hr{
   width: 50px;
@@ -58,6 +60,14 @@ hr{
 
   .menu_nav_home ul li a:hover{
     color: #00e0d0;
+  }
+
+  #sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #312852;
+    z-index: +2;
   }
 
   #slide_home{
