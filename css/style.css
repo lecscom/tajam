@@ -9,7 +9,7 @@ hr{
 }
 
 #home{
-  background: url("../images/header_background.webp") #312852;
+  background: url("../images/header_background.png") #312852;
   background-repeat: no-repeat;
   background-position: center;
   height: 670px;
@@ -196,7 +196,7 @@ hr{
     }
 
   #about_video{
-    background: url("../images/video_background.webp") #201b41;
+    background: url("../images/video_background.png") #201b41;
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
@@ -268,7 +268,7 @@ hr{
   }
 
 #teams{
-  background: url("../images/team_background.webp") #302b50;
+  background: url("../images/team_background.png") #302b50;
   /* height: 715px; */
   height: 640px;
   background-repeat: no-repeat;
@@ -337,7 +337,7 @@ hr{
   }
 
 #people_say{
-  background: url("../images/peoplesay_background.webp") #231e43;
+  background: url("../images/peoplesay_background.png") #231e43;
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
@@ -446,7 +446,7 @@ hr{
     }
 
 #footer{
-  background: url("../images/footer_background.webp") #251f44;
+  background: url("../images/footer_background.png") #251f44;
   height: 400px;
   background-repeat: no-repeat;
   background-position: center;
