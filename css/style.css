@@ -5,6 +5,8 @@
 
 #home{
   background: url("../images/header_background.webp") #312852;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 670px;
   width: 100%;
   }
@@ -94,6 +96,9 @@
 
     .button1:hover{
       color: white;
+      border: 2px solid white;
+      cursor: pointer;
+
     }
 #about{
   background: white;
@@ -150,11 +155,15 @@
 
     .button2:hover{
       color: #413d4b;
+      border: 2px solid #413d4b;
+      cursor: pointer;
     }
 
   #about_video{
     background: url("../images/video_background.webp") #201b41;
     height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
     #about_video i{
@@ -168,16 +177,35 @@
       font-family: 'Roboto', sans-serif;
     }
 
-    .play_buttom{
+    .play_buttom {
       background: none;
+      color: white;
+      border: none;
+      padding: 15px;
+      font-family: Roboto;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 200px 380px;
+
+      /* background: none;
       border: none;
       margin-top: 200px;
       margin-left: 420px;
-      /* margin: 20% 42%; */
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      /* margin: 20% 42%; */ */
+    }
+
+    .play_buttom i{
+      font-size: 45px;
     }
 
     .play_buttom:hover{
+      background-color: none;
       color: #00e0d0;
+
+      /* color: #00e0d0;
+      cursor: pointer; */
     }
 
 
@@ -207,6 +235,8 @@
   background: url("../images/team_background.webp") #302b50;
   /* height: 715px; */
   height: 640px;
+  background-repeat: no-repeat;
+  background-position: center;
   }
 
 .text_teams {
@@ -239,6 +269,8 @@
 
   .button3:hover{
     color: white;
+    border: 2px solid white;
+    cursor: pointer;
   }
 
 #works{
@@ -264,11 +296,15 @@
 
   .button4:hover{
     color: #413d4b;
+    border: 2px solid #413d4b;
+    cursor: pointer;
   }
 
 #people_say{
   background: url("../images/peoplesay_background.webp") #231e43;
   height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .text_people_say {
@@ -354,6 +390,8 @@
 
       input[type=submit]:hover{
         color: #413d4b;
+        border: 2px solid #413d4b;
+        cursor: pointer;
       }
 
   #contac_client{
@@ -374,4 +412,6 @@
 #footer{
   background: url("../images/footer_background.webp") #251f44;
   height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
